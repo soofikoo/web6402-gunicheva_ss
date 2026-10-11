@@ -1,0 +1,151 @@
+body{
+    font-family: Ponomar;
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+}
+
+.ponomar-regular {
+    font-family: "Ponomar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.home {
+    background-image:
+            linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+            url("../img/narrow-river-forest-surrounded-by-beautiful-green-trees.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-text{
+    background-color: rgb(52 58 10 / 0.6);
+    backdrop-filter: blur(4px);
+    margin: 6% 12%;
+    border-radius: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16%;
+    margin-top: 80px;
+    text-decoration: none;
+}
+
+.navigate-button {
+    background-color: rgb(52 58 10 / 0.6);
+    backdrop-filter: blur(4px);
+    color: white;
+    font-family: inherit;
+    font-size: 28pt;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navigate-button:hover {
+    background-color: rgb(52 58 10 / 0.8);
+}
+
+.points {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px 30px 50px;
+    font-size: 20pt;
+    text-align: left;
+}
+
+.points h2 {
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.points-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.points-table th,
+.points-table td {
+    border: 3px solid white;
+    padding: 12px 10px;
+}
+
+.points-table th {
+    font-weight: normal;
+}
+
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right; }
+
+.community-title {
+    width: 400px;
+    margin: 30px auto;
+    padding: 5px 0;
+    font-size: 22pt;
+}
+
+.community-title h2 {
+    font-weight: normal;
+    margin: 15px 0;
+}
+
+.community-card {
+    width: 450px;
+    padding: 20px 30px;
+    font-size: 22pt;
+    text-align: left;
+}
+
+.left-card {
+    margin: 40px auto 40px 30px;
+}
+
+.right-card {
+    margin: 40px 30px 40px auto;
+}
+
+.community-link {
+    color: white;
+    text-decoration: none;
+}
+
+.community-link:hover {
+    text-decoration: underline;
+}
+
+.codes {
+    max-width: 750px;
+    margin: 70px auto;
+    padding: 30px 40px;
+    background-color: rgb(177 179 151 / 0.6);
+    border-radius: 16px;
+}
+
+.code-row {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.code-img {
+    width: 50%;
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+.code-name {
+    width: 50%;
+    margin: 0;
+    color: #000000;
+    font-size: 22pt;
+    text-align: center;
+}
