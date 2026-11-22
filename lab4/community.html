@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ponomar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Долголесье — с кем сортировать</title>
+</head>
+<body class="page page--cream">
+
+<div class="community-heading">
+    <h2 class="community-heading__title">С кем сортировать</h2>
+</div>
+
+<main class="community-grid">
+
+    <div class="community-card community-grid__item community-grid__item--top-left">
+        <h3 class="community-card__title">Вторсырье на благо</h3>
+        <p class="community-card__description">
+            Некоммерческий волонтерский проект,
+            цель которого — развитие культуры
+            раздельного сбора отходов и бережного
+            отношения к ресурсам планеты.
+        </p>
+        <a href="https://vk.ru/rsbor_samara" class="community-card__link">
+            Ссылка на сообщество
+        </a>
+    </div>
+
+    <div class="community-card community-grid__item community-grid__item--bottom-right">
+        <h3 class="community-card__title">Путь реки</h3>
+        <p class="community-card__description">
+            Путь реки — низовая инициатива
+            активистов Самары и Тольятти.
+            Мы создаем базовую инфраструктуру
+            тропы по Самарской Луке:
+            маркировка, указатели, места ночлега.
+        </p>
+        <a href="https://vk.ru/followthevolga" class="community-card__link">
+            Ссылка на сообщество
+        </a>
+    </div>
+
+</main>
+
+<section class="subscribe">
+    <details>
+        <summary class="subscribe__toggle">
+            Узнавать о новых событиях
+        </summary>
+
+        <div class="subscribe__content">
+            <h2 class="subscribe__title">Вести из Долголесья</h2>
+
+            <p class="subscribe__description">
+                Подпишись, чтобы узнавать о новых
+                экологических акциях и встречах.
+            </p>
+
+            <form id="subscribe-form" class="subscribe__form">
+                <label class="subscribe__label" for="subscriber-name">Твоё имя</label>
+                <input
+                        type="text"
+                        class="subscribe__field"
+                        id="subscriber-name"
+                        name="name"
+                        placeholder="Как к тебе обращаться?"
+                        required
+                >
+
+                <label class="subscribe__label" for="subscriber-email">Электронная почта</label>
+                <input
+                        type="email"
+                        class="subscribe__field"
+                        id="subscriber-email"
+                        name="email"
+                        placeholder="example@mail.ru"
+                        required
+                >
+
+                <label class="subscribe__label subscribe__agreement">
+                    <input
+                            type="checkbox"
+                            class="subscribe__checkbox"
+                            id="subscriber-agreement"
+                            name="agreement"
+                            required
+                    >
+                    Я согласен получать письма о событиях
+                </label>
+
+                <button type="submit" class="subscribe__submit">
+                    Подписаться
+                </button>
+
+                <p id="subscribe-message" class="subscribe__message"></p>
+            </form>
+        </div>
+    </details>
+</section>
+
+<nav class="navigation navigation--glass">
+    <a href="index.html" class="navigation__link">На главную</a>
+</nav>
+<script src="js/subscribe.js"></script>
+</body>
+</html>
